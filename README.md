@@ -64,7 +64,7 @@ lootbox_regions.yml
 player-kits.yml
 design_boxes.yml
 
-( https://imgur.com/a/AkkSp0F )
+( https://imgur.com/a/lg0JNV3 )
 There are a lot of details and description but this is the summary.
 
 
