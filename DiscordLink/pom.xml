@@ -51,7 +51,6 @@
     </build>
 
     <dependencies>
-        <!-- LuckPerms API -->
         <dependency>
             <groupId>net.luckperms</groupId>
             <artifactId>api</artifactId>
@@ -59,7 +58,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- باقي dependencies الخاصة بك مثل Bukkit/Spigot -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
