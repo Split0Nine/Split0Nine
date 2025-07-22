@@ -1,9 +1,0 @@
-{
-  "token": "",
-  "clientId": "",
-  "guildId": "",
-  "webhookPort": 25565,
-  "database": {
-    "type": "sqlite"
-  }
-}
