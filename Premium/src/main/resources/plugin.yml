@@ -1,0 +1,93 @@
+name: SkyPvP
+version: 1.0
+description: Advanced Kit System with rank-based access
+author: MrShr
+main: org.KitSystem
+softdepend: [Vault]
+api-version: 1.8
+
+commands:
+  kit:
+    description: Open kit GUI or select a specific kit
+    usage: /kit [kitname]
+    permission: kit.use
+    permission-message: You don't have permission to use this command!
+
+  lootadd:
+    description: Add items to loot boxes
+    usage: /lootadd <yellow|green|black>
+    permission: lootbox.admin
+
+  lootremove:
+    description: Remove items from loot boxes
+    usage: /lootremove <yellow|green|black>
+    permission: lootbox.admin
+
+  lootclear:
+    description: Clear all loot boxes from the map
+    usage: /lootclear
+    permission: lootbox.admin
+
+  pos1:
+    description: Set position 1 for loot box spawn region
+    usage: /pos1
+    permission: lootbox.admin
+
+  pos2:
+    description: Set position 2 for loot box spawn region
+    usage: /pos2
+
+  excludepos1:
+    description: Set position 1 for excluded region
+    usage: /excludepos1
+    permission: lootbox.admin
+
+  excludepos2:
+    description: Set position 2 for excluded region
+    usage: /excludepos2
+    permission: lootbox.admin
+
+  excludeclear:
+    description: Clear all excluded regions
+    usage: /excludeclear
+    permission: lootbox.admin
+
+  excludelist:
+    description: List all excluded regions
+    usage: /excludelist
+    permission: lootbox.admin
+
+  clearitems:
+    description: Removed heads, holograms, and items
+    usage: /clearitems
+
+  lootdesign:
+    description: Spawn a design loot box with hologram
+    usage: /lootdesign <yellow/green/black>
+    permission: lootbox.admin
+
+  designreload:
+    description: Reload design boxes configuration
+    usage: /designreload
+    permission: lootbox.admin
+
+permissions:
+  kit.use:
+    description: Allows access to kit command
+    default: true
+  kit.player:
+    description: Access to Player kit
+    default: true
+  kit.gold:
+    description: Access to Gold kit
+    default: op
+  kit.diamond:
+    description: Access to Diamond kit
+    default: op
+  kit.emerald:
+    description: Access to Emerald kit
+    default: op
+
+  lootbox.admin:
+    description: Allows access to loot box admin commands
+    default: op
