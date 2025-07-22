@@ -1,0 +1,21 @@
+name: shr
+version: '1.0-SNAPSHOT'
+main: org.Shr.Main
+api-version: '1.8.8'
+author: Shr
+depend: [LuckPerms]
+commands:
+  clearchat:
+    description: Clears the chat for all players
+    usage: /clearchat
+permissions:
+  clearchat.use:
+    description: Allows using /clearchat
+    default: op
+  clearchat.reload:
+    default: op
+
+
+#messages:
+#  no-permission: "&cyou don't have permission to use this command (✖)."
+#  plugin-reloaded: "&aThe plugin shr has been reloaded successfully ✔"
