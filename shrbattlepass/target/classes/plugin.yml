@@ -1,0 +1,25 @@
+name: shrbattlepass
+version: '1.0-SNAPSHOT'
+main: org.Shrbattlepass
+api-version: '1.8.8'
+author: Shrbattlepass
+description: Custom BattlePass plugin with PhoenixLobby integration
+website: https://github.com/MrShr/shrbattlepass
+
+depend: [PlaceholderAPI]
+softdepend: [PlaceholderAPI]
+
+commands:
+  battlepass:
+    description: Main BattlePass command
+    usage: /battlepass [addxp|setlevel|info] <player> [amount/level]
+    permission: shrbattlepass.admin
+    aliases: [bp]
+
+permissions:
+  shrbattlepass.admin:
+    description: Allows access to all BattlePass admin commands
+    default: op
+  shrbattlepass.use:
+    description: Allows basic BattlePass usage
+    default: true
