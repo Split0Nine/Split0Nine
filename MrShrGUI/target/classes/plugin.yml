@@ -1,0 +1,37 @@
+name: MrShrGUI
+version: '1.0'
+main: org.example.manageplayer.mrshrgui.MrShrGUI
+api-version: '1.8'
+
+commands:
+  manage:
+    description: Manage menu a player
+    usage: /manage <player>
+    permission: manage.player
+    permission-message: You don't have permission to use this command.
+
+  fly:
+    description: Allows you to enable or disable flight.
+    usage: /fly
+    aliases: [f]
+
+  follow:
+    description: Follow another player across servers
+    usage: /follow <player>
+    aliases: [foll]
+
+channels:
+  - Follow
+  - FollowRequest
+  - BungeeCord
+
+permissions:
+  fly.use:
+    description: Using the /fly command allows
+    default: op
+    permission-message: You don't have permission to use /fly.
+
+  follow.use:
+    description: Using the /follow command allows for staff
+    default: op
+    permission-message: You don't have permission to use /follow.

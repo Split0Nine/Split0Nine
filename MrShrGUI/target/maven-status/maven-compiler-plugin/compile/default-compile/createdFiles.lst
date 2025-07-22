@@ -1,0 +1,4 @@
+org\example\manageplayer\mrshrgui\listeners\MenuListener.class
+org\example\manageplayer\mrshrgui\commands\ManageCommand.class
+org\example\manageplayer\mrshrgui\menus\ManageMenu.class
+org\example\manageplayer\mrshrgui\MrShrGUI.class
