@@ -1,0 +1,23 @@
+name: DiscordLink
+version: '1.0-SNAPSHOT'
+main: org.DiscordLink
+api-version: '1.8'
+depend: [LuckPerms]
+softdepend: []
+
+description: Advanced Discord linking system with playtime tracking
+
+commands:
+  discord:
+    description: Link your Minecraft account to Discord
+    usage: /discord link <discord_id>
+    permission: discordlink.use
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  discordlink.use:
+    description: Allows players to link their accounts
+    default: true
+  discordlink.admin:
+    description: Admin permissions for DiscordLink
+    default: op

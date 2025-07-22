@@ -1,0 +1,34 @@
+# DiscordLink Configuration File
+
+
+webhook: "http://ip:port/player-data"
+
+settings:
+  code_expiry_minutes: 5
+
+  playtime_save_interval: 5
+
+  debug_logging: true
+
+messages:
+  link_success: "§aYour account has been successfully linked to Discord! ✅ "
+  link_failed: "§cFailed to link account. Try again. ❌"
+  already_linked: "§cThis account is already linked to another Discord. ❌ "
+  invalid_code: "§cThe code is incorrect or expired. ❌"
+  usage: "§cUse: /discord link <discord_id>"
+
+database:
+  # نوع قاعدة البيانات (file, mysql)
+  type: "file"
+
+  # إعدادات MySQL (إذا كان النوع mysql)
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "discordlink"
+    username: "root"
+    password: "password"
+
+http-server:
+  port: 8080
+  enabled: true

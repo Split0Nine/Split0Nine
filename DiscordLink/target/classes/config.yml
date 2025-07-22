@@ -1,0 +1,41 @@
+# DiscordLink Configuration File
+# تكوين نظام ربط الديسكورد
+
+# عنوان الخادم لإرسال بيانات الربط
+webhook: "http://45.88.9.243:3000/player-data"
+
+# إعدادات عامة
+settings:
+  # مدة صلاحية الكود بالدقائق
+  code_expiry_minutes: 5
+
+  # حفظ بيانات وقت اللعب كل كم دقيقة
+  playtime_save_interval: 5
+
+  # تفعيل الرسائل التفصيلية في السجل
+  debug_logging: true
+
+# رسائل النظام
+messages:
+  link_success: "§aYour account has been successfully linked to Discord! ✅ "
+  link_failed: "§cFailed to link account. Try again. ❌"
+  already_linked: "§cThis account is already linked to another Discord. ❌ "
+  invalid_code: "§cThe code is incorrect or expired. ❌"
+  usage: "§cUse: /discord link <discord_id>"
+
+# إعدادات قاعدة البيانات
+database:
+  # نوع قاعدة البيانات (file, mysql)
+  type: "file"
+
+  # إعدادات MySQL (إذا كان النوع mysql)
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "discordlink"
+    username: "root"
+    password: "password"
+
+http-server:
+  port: 8080
+  enabled: true
