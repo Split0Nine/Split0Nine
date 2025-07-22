@@ -1,0 +1,7 @@
+name: MrShrShop
+version: '1.0-SNAPSHOT'
+main: org.MrShrShop.mrShrShop.MrShrShop
+api-version: '1.8.8'
+commands:
+  ShrShop:
+    description: Opens the shop
