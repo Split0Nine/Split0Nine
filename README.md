@@ -30,7 +30,7 @@ config.yml - File to save the lobby and the locations where you start fighting.
 duels.yml
 stats.yml - File to store players' win and loss information and add a firewall to it when the player changes his name.
 
-The attached images are in a file called dules.
+( https://imgur.com/a/tXwmVKs )
 
 
 
@@ -64,7 +64,7 @@ lootbox_regions.yml
 player-kits.yml
 design_boxes.yml
 
-The attached images are in a file called SkyPvP.
+( https://imgur.com/a/AkkSp0F )
 There are a lot of details and description but this is the summary.
 
 
@@ -80,27 +80,26 @@ papi :
 %battlepass_progress%
 
 Saving player data in playerdata.yml via UUID making it easier to track a player's name if it changes .
-The attached images are in a file called Battlepass.
+( https://imgur.com/a/z2OFfh5 )
 
 
 
 4- Profile
-The attached images are in a file called  Profile.
+( https://imgur.com/a/BpHYnfH )
 
 
 5 - Discordlink
 Commands :
 /link <code> - link your account in mincraft with discord. as shown in the Embed
-The attached images are in a file called Discordlink.
+( https://imgur.com/a/In2rOfP )
 
 
 6 - Managerplayer
 Commands :
 /manage <player> - open manage menu
-The attached images are in a file called Managerplayer.
-
+( https://imgur.com/a/HxC2sgL )
 
 7 - Shop
-The attached images are in a file called Shop.
+( https://imgur.com/a/rCDEDAy )
 
 -->
