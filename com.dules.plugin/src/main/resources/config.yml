@@ -1,0 +1,4 @@
+arena:
+  spawn1: {world, x, y, z, yaw, pitch}
+  spawn2: {world, x, y, z, yaw, pitch}
+  lobby: {world, x, y, z, yaw, pitch}

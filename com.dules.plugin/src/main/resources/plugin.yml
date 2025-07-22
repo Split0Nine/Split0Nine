@@ -1,0 +1,35 @@
+name: Dules
+version: 1.0
+main: org.shr1v1.Dules
+api-version: 1.8
+
+commands:
+  duel:
+    description: Open duel menu or invite player to duel
+    usage: /duel [player]
+    permission: dules.use
+    permission-message: You do not have permission to use this command.
+
+  duelaccept:
+    description: Accept a duel invite
+    usage: /duelaccept
+    permission: dules.use
+    permission-message: You do not have permission to use this command.
+
+  dueldeny:
+    description: Deny a duel invite
+    usage: /dueldeny
+    permission: dules.use
+    permission-message: You do not have permission to use this command.
+
+  duelstats:
+    description: Show duel stats for yourself or another player
+    usage: /duelstats [player]
+    permission: dules.use
+    permission-message: You do not have permission to use this command.
+
+  duelsetup:
+    description: Setup duel arena spawn points and lobby
+    usage: /duelsetup <spawn1|spawn2|lobby>
+    permission: duel.admin
+    permission-message: You do not have permission to use this command.
