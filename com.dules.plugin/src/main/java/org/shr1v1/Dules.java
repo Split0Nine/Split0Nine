@@ -275,7 +275,7 @@ public class Dules extends JavaPlugin implements Listener, CommandExecutor {
 
         Team ipTeam = board.registerNewTeam("ip");
         ipTeam.addEntry(ChatColor.DARK_GRAY.toString());
-        ipTeam.setSuffix(ChatColor.AQUA.toString() + ChatColor.BOLD + "WixMC.com");
+        ipTeam.setSuffix(ChatColor.AQUA.toString() + ChatColor.BOLD + "Server.com");
 
         objective.getScore(ChatColor.GRAY + new SimpleDateFormat("MMM dd | hh:mm a").format(new Date())).setScore(15);
         objective.getScore(ChatColor.WHITE + "").setScore(14);
